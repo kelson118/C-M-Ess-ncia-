@@ -1,12 +1,114 @@
-<!DOCTYPE html>
-<html lang="pt">
+<!DOCTYPE html><html lang="pt">
 <head>
   <meta charset="UTF-8">
-  <title>Serviços - C&M Essência</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>C&M Essência</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #ffffff;
+      color: #212529;
+    }
+    header {
+      background: linear-gradient(90deg, #28a745, #007bff);
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      background-color: #f8f9fa;
+      padding: 15px;
+      font-weight: bold;
+    }
+    nav a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .product-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .product {
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 8px;
+      background: #f9f9f9;
+    }
+    .contact, .location {
+      background: #f1f1f1;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    footer {
+      background-color: #343a40;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    a {
+      color: #007bff;
+    }
+  </style>
 </head>
 <body>
-  <h1>Serviços da C&M Essência</h1>
-  <p>Oferecemos assistência técnica, consultoria agrícola e suporte pós-venda.</p>
-  <a href="index.html">Voltar para o início</a>
+  <header>
+    <h1>C&M Essência</h1>
+    <p><em>Conectando tecnologia e natureza – para um amanhã mais eficiente</em></p>
+  </header>  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#produtos">Produtos</a>
+    <a href="#contato">Contato</a>
+    <a href="#localizacao">Localização</a>
+  </nav>  <section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>A C&M Essência é uma empresa angolana dedicada à venda de produtos eletrónicos e agrícolas. Atuamos com seriedade, modernidade e um forte compromisso com o desenvolvimento sustentável do país, promovendo soluções acessíveis e confiáveis ao nosso público.</p>
+  </section>  <section id="produtos">
+    <h2>Catálogo de Produtos</h2>
+    <div class="product-list">
+      <div class="product">
+        <h3>Smartphone XYZ</h3>
+        <p>Alta performance, preço acessível.</p>
+      </div>
+      <div class="product">
+        <h3>Kit de Irrigação</h3>
+        <p>Solução eficiente para pequenos agricultores.</p>
+      </div>
+      <div class="product">
+        <h3>Painel Solar Portátil</h3>
+        <p>Energia limpa em qualquer lugar.</p>
+      </div>
+    </div>
+  </section>  <section id="contato">
+    <h2>Fale Conosco</h2>
+    <div class="contact">
+      <p><strong>WhatsApp:</strong> <a href="https://wa.me/244943735096">943 735 096</a></p>
+      <p><strong>Email:</strong> <a href="mailto:cm372159@gmail.com">cm372159@gmail.com</a></p>
+      <p><strong>Facebook:</strong> <a href="https://facebook.com/CarlosManuelCM">Carlos Manuel CM</a></p>
+      <p><strong>Instagram:</strong> <a href="https://instagram.com/kelson_jr118">@kelson_jr118</a></p>
+    </div>
+  </section>  <section id="localizacao">
+    <h2>Onde Estamos</h2>
+    <div class="location">
+      <p>Angola – atendemos em todo o território nacional.</p>
+    </div>
+  </section>  <footer>
+    <p>&copy; 2025 C&M Essência. Todos os direitos reservados.</p>
+  </footer>
 </body>
-</html>
+  </html>
